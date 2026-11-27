@@ -14,12 +14,10 @@ void EXIT(sll **p)
         case 's':
         case 'S':
             save(*p);
-            del_all(p);
             exit(0);
 
         case 'e':
         case 'E':
-            del_all(p);
             exit(0);
 
         default:
